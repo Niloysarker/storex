@@ -1,0 +1,211 @@
+/*Default*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*header designs*/
+header{
+    display: flex;
+    justify-content:space-between;
+    height: 60px;
+   
+    padding: 20px 0;
+}
+nav{
+float: right;
+
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style-type: none;
+}
+nav a{
+    font-size: 12px ;
+    padding: 0px 5px;
+    text-decoration: none;
+}
+#menu_icon{
+  margin-right: 5px;
+  margin-left: 20px;
+}
+#nav_logo a{
+    text-decoration: none;
+    cursor: pointer;
+
+}
+#nav_logo i{
+   margin: 0 10px;
+}
+#org_name{
+    font-style: bold;
+    font-size: 18px;
+    margin-right: 200px;
+    font-weight: 5px;
+}
+
+#org_name span{
+
+    font-size: 20px;
+    color: red;
+}
+
+/*Organic images and headers and contents*/
+#organic{
+height: 505px;
+}
+#organic img{
+width: 100%;
+height: 505px;
+}
+#organic_contents{
+text-align: center;
+position: relative;
+bottom: 350px;
+color: white;
+}
+#organic_contents h1{
+margin: 10px 0;
+font-size: 40px;
+font-weight: 900;
+font-style: bold;
+}
+#organic_contents h4{
+ letter-spacing: 2px;
+ font-size:20px ;
+ font-weight: bold;
+    }
+#shop_btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: green;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+
+/*Green Group*/ 
+
+#green_group{
+    width: 100%;
+    height: 250px;
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+
+}
+#green_group_content{
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+    width: 300px;
+}
+#green_group_content img{
+  margin-bottom: 15px;
+}
+
+
+
+/*title*/
+#title_popular_catagory{
+    text-align: center;
+    margin-top: 50px;
+}
+/*Popular catagories*/
+#popular_catagory{
+    max-width: 970px;
+    margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+}
+.popular_catagory_content{
+   width: 300px;
+   height: 150px;
+   margin: 20px 10px;
+   color: black;
+}
+
+.popular_catagory_content a{
+   padding-left: 10px;
+   color: green;
+ }
+#popular_cata_name{
+    font-weight: bold;
+    padding-top: 35px;
+    padding-left: 10px;
+}
+#num_of_items{
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 15px;
+}
+/*cover Backgrounds for popular catagories*/
+.background1{
+    background-image: url(images/malta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background2{
+    background-image: url(images/mixed.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background3{
+    background-image: url(images/orangejuice.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background4{
+    background-image: url(images/apple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background5{
+    background-image: url(images/vege.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background6{
+    background-image: url(images/straw1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+/*title for freash product*/
+#freash_product_title{
+    text-align: center;
+    margin-top: 20px;
+}
+/*Freash Products*/
+#freash_products{
+max-width: 900px;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+}
+
+#freash_products_items{
+width: 200px;
+height: 230px;
+border: 1px solid rgb(224, 220, 220);
+text-align: center;
+margin: 15px 10px;
+}
+#freash_products_items img{
+    width:119px ;
+    height: 112px;
+ margin-top: 20px;
+ margin-bottom: 10px;
+}
+#rating{
+    font-size: 10px;
+    color:#FF9529;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
